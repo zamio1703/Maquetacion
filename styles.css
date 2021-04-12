@@ -1,5 +1,10 @@
 /* FUNETES */
-
+@font-face {
+    font-family: "roboto";
+    src: url("fuentes/Roboto-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
 /* ESTILOS GENERALES */
 *{
     /* pagina sin bordes */
@@ -38,6 +43,13 @@ body{
    text-align: center;
    font-size: 40px;
    color: darkblue;
+   /*TIPO DE LETRA -> font-family ROBOTO*/
+   font-family: 'Open Sans', sans-serif;
+   /* Mayusculas */
+   text-transform: uppercase;
+   /* Espacio de letras */
+   letter-spacing: 2px;
+   margin-top: 0px;
 }
 #header h1 a{
    /* /* text-align: center;
