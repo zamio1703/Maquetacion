@@ -15,4 +15,32 @@ body{
     /* ancho del 100% */
     width: 100%;
     height: 150px;
+    /* Centrar div */
+    margin: 0px auto;
+}
+#header a{
+    /* Quitar subrayado a los links */
+    text-decoration: none;
+}
+/* Estilos del logotipo */
+#header #logotipo{
+    width: 280px;
+    margin: 0px auto;
+    padding-top: 10px;
+}
+#header #logotipo img{
+   display: block;
+   text-align: center;
+   margin: 0px auto;
+   width: 140px;
+}
+#header h1{
+   text-align: center;
+   font-size: 40px;
+   color: darkblue;
+}
+#header h1 a{
+   /* /* text-align: center;
+   font-size: 40px; */
+   color: darkblue; 
 }
